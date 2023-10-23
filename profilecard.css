@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+.profilecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.image{
+    margin: 10px;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #4070f4;
+    border-radius: 50%;
+    padding: 3px;
+}
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.profilecard .text-data{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+}
+.text-data .name{
+    font-size: 24px;
+    font-weight: 500;
+}
+.text-data .job{
+    font-size: 24px;
+    font-weight: 400;
+}
+.profilecard .media-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+   
+}
+.media-buttons .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 34px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 8px;
+    border-radius: 50%;
+    background: #4070f4;
+}
